@@ -104,7 +104,8 @@ function updateProjects(){
             project1.demo.setAttribute('href', ``)
             project1.demo.setAttribute('target', ``)
             project1.demo.setAttribute('rel', ``)
-            project1.demo.textContent='Demo (Coming Soon)'
+            project1.demo.textContent=''
+            // project1.demo.textContent='Demo (Coming Soon)'
         }
     }else{
         project1.demo.setAttribute('href', `${projects[project1.index].demoLink[0]}`)
@@ -160,7 +161,8 @@ function updateProjects(){
             project2.demo.setAttribute('href', ``)
             project2.demo.setAttribute('target', ``)
             project2.demo.setAttribute('rel', ``)
-            project2.demo.textContent='Demo (Coming Soon)'
+            project2.demo.textContent=''
+            // project2.demo.textContent='Demo (Coming Soon)'
         }
     }else{
         project2.demo.setAttribute('href', `${projects[project2.index].demoLink[0]}`)
